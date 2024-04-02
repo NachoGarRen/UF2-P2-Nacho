@@ -54,7 +54,7 @@ int main() {
         case '2': {
             cout << "\nLista de la compra:" << endl;
             if (listaCompra.empty()) {
-                cout << "La lista de la compra está vacía." << endl;
+                cout << "La lista de la compra esta vacia." << endl;
             }
             else {
                 for (const auto& par : listaCompra) {
